@@ -53,6 +53,24 @@ body:after{content:"";position:fixed;inset:0;pointer-events:none;z-index:20;back
 
 /* V8 field-note clarity */
 .field-panel{width:min(560px,100%)!important;padding:26px!important}.field-panel h3{font-size:32px!important;max-width:440px;margin-bottom:13px!important}.field-panel p{max-width:500px;font-size:12px!important;line-height:1.65!important;margin-bottom:16px!important}.field-meta div{padding:11px 12px!important}.field-meta strong{color:var(--terminal)!important}.field-kicker{color:var(--ion)!important;opacity:.82}
+
+/* V9 final rhythm polish */
+.hero{min-height:355px!important;padding-bottom:0!important}
+.lab{padding-top:18px!important;padding-bottom:34px!important}
+.intro{margin-bottom:18px!important}
+.intro h2{margin-bottom:0!important}
+.cards{gap:9px!important}
+.card{min-height:116px!important;padding:16px 18px!important}
+.card h3{margin:17px 0 5px!important}
+.card p{color:#93a5a7!important}
+.num{opacity:.92!important}
+.hero:after{opacity:.58!important}
+footer{color:#678083!important;padding-top:18px!important}
+@media(max-width:760px){
+  .hero{min-height:420px!important}
+  .lab{padding-top:24px!important}
+  .card{min-height:112px!important}
+}
 </style></head><body><div class="shell"><header class="top"><a class="brand" href="https://microkosm-home-production.up.railway.app"><span class="mark">N</span><span>NORA<small>BY MICROKOSM LABS</small></span></a><a class="home" href="https://microkosm-home-production.up.railway.app">← Field Index</a></header><main><section class="hero"><div class="copy"><h1>Nora.</h1><p class="lede"><strong>Private by default. Connected when you choose.</strong></p><a class="demo-request" href="mailto:tim@microkosmlabs.com?subject=Nora%20Test%20Demo%20Request&body=I%27d%20like%20to%20request%20a%20test%20demo%20of%20Nora.">Request a Nora test demo →</a></div></section><section class="lab"><div class="intro"><div><h2>Local by default.<br>Networked by permission.</h2></div></div><div class="cards"><article class="card" tabindex="0" role="button" data-field="local"><div class="num">01 / LOCAL</div><h3>Your machine.</h3><p>Private context stays close.</p></article><article class="card" tabindex="0" role="button" data-field="boundary"><div class="num">02 / PERMISSION</div><h3>You choose the connection.</h3><p>Network access is deliberate.</p></article><article class="card" tabindex="0" role="button" data-field="live"><div class="num">03 / INTELLIGENCE</div><h3>Bring the data home.</h3><p>Live outside. Analyze locally.</p></article></div></section></main><footer><div>MICROKOSM LABS / LAB 003<br>Nora · Local Intelligence</div><div>Small systems. Big context.<br>Systems, made visible.</div></footer></div><div class="field-pop" id="fieldPop" aria-hidden="true"><section class="field-panel" role="dialog" aria-modal="true" aria-labelledby="fieldTitle"><button class="field-close" id="fieldClose" aria-label="Close">×</button><div class="field-kicker" id="fieldKicker"></div><h3 id="fieldTitle"></h3><p id="fieldBody"></p><div class="field-meta" id="fieldMeta"></div></section></div><script>
 const fieldNotes={
 local:{k:"CONTROL SURFACE / 01 · LOCAL CONTROL",t:"Your machine. Your context.",b:"Nora’s reasoning and retained context stay on operator-controlled hardware. Local is the trust boundary, not merely a deployment option.",m:[["EXECUTION","LOCAL"],["CONTEXT","LOCAL"],["DEFAULT EGRESS","NONE"],["OPERATOR CONTROL","REQUIRED"]]},
